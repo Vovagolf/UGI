@@ -12,7 +12,7 @@ def knapsack(W, weights, values, n):
 
 values = [60, 100, 120]
 weights = [10, 20, 30]
-W = 40
+W = 10
 n = len(values)
 
 print("Максимальна цінність:", knapsack(W, weights, values, n))

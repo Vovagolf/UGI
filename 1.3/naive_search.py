@@ -4,6 +4,6 @@ def naive_search(text, pattern):
         if text[i:i + m] == pattern:
             print(f"Підрядок знайдено на позиції {i}")
 
-text = "ababababak"
+text = "ababababakg"
 pattern = "bab"
 naive_search(text, pattern)
