@@ -1,0 +1,9 @@
+import random
+
+def generate_crypto_price():
+    crypto = "bitcoin"  # Можна змінити на іншу криптовалюту
+    price = random.uniform(20000, 70000)  # Генерація випадкового курсу
+    print(f"Поточний курс {crypto}: ${price:.2f}")
+
+if __name__ == "__main__":
+    generate_crypto_price()
